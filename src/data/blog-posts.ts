@@ -80,7 +80,7 @@ function slugToTitle(slug: string): string {
     .replace(/\bSaas\b/g, "SaaS")
     .replace(/\bE-?commerce\b/g, "E-commerce")
     .replace(/\bCms\b/g, "CMS")
-    .replace(/\bKota\b/g, "KOTA")
+    .replace(/\bKota\b/g, "Blackstone Media")
     .replace(/\bTiktok\b/g, "TikTok")
     .replace(/\bInstagram\b/g, "Instagram")
     .replace(/\bLinkedIn\b/g, "LinkedIn")
@@ -381,7 +381,7 @@ function getTags(slug: string): string[] {
 
 function getExcerpt(slug: string): string {
   const title = slugToTitle(slug);
-  return `Explore insights on ${title.toLowerCase()} from the KOTA team.`;
+  return `Explore insights on ${title.toLowerCase()} from the Blackstone Media team.`;
 }
 
 function getDate(slug: string): string {

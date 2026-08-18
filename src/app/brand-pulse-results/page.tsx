@@ -149,13 +149,13 @@ export default function BrandPulseResults() {
                   lineHeight: 1.4,
                 }}
               >
-                KOTA shapes brand identities that the world wants to see more of.
+                Blackstone Media shapes brand identities that the world wants to see more of.
                 Reach out to our award-winning team to get started.
               </p>
               <p style={{ fontSize: "1.25rem", color: "rgba(255,255,255,0.5)", marginBottom: "2.5rem" }}>
                 Drop us a line at{" "}
-                <a href="mailto:hello@kota.co.uk" style={{ color: "#fff", textDecoration: "underline" }}>
-                  hello@kota.co.uk
+                <a href="mailto:hello@blackstonemedia.com" style={{ color: "#fff", textDecoration: "underline" }}>
+                  hello@blackstonemedia.com
                 </a>
               </p>
               <Link

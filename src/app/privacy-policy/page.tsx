@@ -63,14 +63,14 @@ const PRIVACY_SECTIONS = [
     title: "Access to your own information.",
     content: [
       "At any time you may review or update personally identifiable information that we hold about you, by signing in to your account on our website.",
-      "To obtain a copy of any information that is not provided on our website you may send us a request at hello@kotacreative.co.uk.",
+      "To obtain a copy of any information that is not provided on our website you may send us a request at hello@blackstonemedia.com.",
       "After receiving the request, we will tell you when we expect to provide you with the information, and whether we require any fee for providing it to you.",
     ],
   },
   {
     title: "Removal of your information.",
     content: [
-      "If you wish us to remove personally identifiable information from our website, you may contact us at hello@kota.co.uk.",
+      "If you wish us to remove personally identifiable information from our website, you may contact us at hello@blackstonemedia.com.",
       "This may limit the service we can provide to you.",
     ],
   },

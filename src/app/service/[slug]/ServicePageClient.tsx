@@ -574,12 +574,12 @@ function CTASection() {
               marginBottom: "2rem",
             }}
           >
-            Interested in working with KOTA?
+            Interested in working with Blackstone Media?
           </h2>
         </FadeIn>
         <FadeIn delay={0.1}>
           <a
-            href="mailto:hello@kota.co.uk"
+            href="mailto:hello@blackstonemedia.com"
             className="rainbow-text"
             style={{
               fontSize: "clamp(1.5rem, 4vw, 3rem)",
@@ -589,7 +589,7 @@ function CTASection() {
               wordBreak: "break-all",
             }}
           >
-            hello@kota.co.uk
+            hello@blackstonemedia.com
           </a>
         </FadeIn>
       </div>

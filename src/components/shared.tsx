@@ -5,10 +5,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 const FOOTER_LOGOS = [
-  { src: `/sites/kota-co-uk_ddbd9d9c/root-dd72c4c6/images/dan-logo.png`, alt: "Digital Agency Network" },
-  { src: `/sites/kota-co-uk_ddbd9d9c/root-dd72c4c6/images/clutch-footer.svg`, alt: "Clutch" },
-  { src: `/sites/kota-co-uk_ddbd9d9c/root-dd72c4c6/images/awwwards-footer.svg`, alt: "Awwwards" },
-  { src: `/sites/kota-co-uk_ddbd9d9c/root-dd72c4c6/images/cssda-footer.svg`, alt: "CSSDA" },
+  { src: `/sites/blackstone-media_ddbd9d9c/root-dd72c4c6/images/dan-logo.png`, alt: "Digital Agency Network" },
+  { src: `/sites/blackstone-media_ddbd9d9c/root-dd72c4c6/images/clutch-footer.svg`, alt: "Clutch" },
+  { src: `/sites/blackstone-media_ddbd9d9c/root-dd72c4c6/images/awwwards-footer.svg`, alt: "Awwwards" },
+  { src: `/sites/blackstone-media_ddbd9d9c/root-dd72c4c6/images/cssda-footer.svg`, alt: "CSSDA" },
 ];
 
 /* Hooks */
@@ -269,7 +269,7 @@ export function Footer() {
           {/* Col 1 */}
           <div>
             <a
-              href="mailto:hello@kota.co.uk"
+              href="mailto:hello@blackstonemedia.com"
               className="rainbow-text"
               style={{
                 fontSize: "clamp(1.25rem, 7.1vw, 7.5rem)",
@@ -282,7 +282,7 @@ export function Footer() {
                 wordBreak: "break-all",
               }}
             >
-              hello@kota.co.uk
+              hello@blackstonemedia.com
             </a>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem", marginTop: "1.5rem" }}>
               {[
@@ -489,7 +489,7 @@ export function Footer() {
               />
             ))}
           </div>
-          <p style={{ fontSize: "1.25rem", color: "#fff" }}>© KOTA 2026</p>
+          <p style={{ fontSize: "1.25rem", color: "#fff" }}>© Blackstone Media 2026</p>
         </div>
       </div>
     </footer>

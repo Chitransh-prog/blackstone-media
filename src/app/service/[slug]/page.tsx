@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!service) return { title: "Service Not Found" };
 
   return {
-    title: `${service.title} | KOTA`,
+    title: `${service.title} | Blackstone Media`,
     description: service.intro,
   };
 }

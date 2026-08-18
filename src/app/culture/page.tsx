@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const SITE_KEY = "kota-co-uk_ddbd9d9c";
+const SITE_KEY = "blackstone-media_ddbd9d9c";
 const PAGE_KEY = "root-dd72c4c6";
 const IMG = `/sites/${SITE_KEY}/${PAGE_KEY}/images`;
 
@@ -570,7 +570,7 @@ function Footer() {
           {/* Col 1 */}
           <div>
             <a
-              href="mailto:hello@kota.co.uk"
+              href="mailto:hello@blackstonemedia.com"
               className="rainbow-text"
               style={{
                 fontSize: "clamp(1.25rem, 7.1vw, 7.5rem)",
@@ -583,7 +583,7 @@ function Footer() {
                 wordBreak: "break-all",
               }}
             >
-              hello@kota.co.uk
+              hello@blackstonemedia.com
             </a>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem", marginTop: "1.5rem" }}>
               {["LinkedIn", "Facebook", "Instagram", "Bluesky"].map((social) => (
@@ -780,7 +780,7 @@ function Footer() {
               />
             ))}
           </div>
-          <p style={{ fontSize: "1.25rem", color: "#fff" }}>© KOTA 2026</p>
+          <p style={{ fontSize: "1.25rem", color: "#fff" }}>© Blackstone Media 2026</p>
         </div>
       </div>
     </footer>

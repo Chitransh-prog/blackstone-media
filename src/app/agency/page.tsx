@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const SITE_KEY = "kota-co-uk_ddbd9d9c";
+const SITE_KEY = "blackstone-media_ddbd9d9c";
 const PAGE_KEY = "root-dd72c4c6";
 const IMG = `/sites/${SITE_KEY}/${PAGE_KEY}/images`;
 
@@ -31,25 +31,25 @@ const TEAM_MEMBERS = [
     name: "Adhi",
     role: "Graphic Designer",
     image: `${IMG}/adhi-portrait.jpg`,
-    bio: "Adhi is a graphic designer with a background in branding, having worked on visual identity systems for global brands across Asia. At KOTA, he focuses on bringing brands to life digitally while maintaining the principles of visual communication.",
+    bio: "Adhi is a graphic designer with a background in branding, having worked on visual identity systems for global brands across Asia. At Blackstone Media, he focuses on bringing brands to life digitally while maintaining the principles of visual communication.",
   },
   {
     name: "Matt",
     role: "Creative Director",
     image: `${IMG}/matt-portrait.jpg`,
-    bio: "Matt brings over a decade of creative leadership to KOTA. He believes in the power of design to transform businesses and is passionate about creating work that pushes boundaries.",
+    bio: "Matt brings over a decade of creative leadership to Blackstone Media. He believes in the power of design to transform businesses and is passionate about creating work that pushes boundaries.",
   },
   {
     name: "Saul",
     role: "Managing Director",
     image: `${IMG}/saul-portrait.jpg`,
-    bio: "Saul founded KOTA with a vision to create a different kind of agency — one that values craft, creativity, and genuine partnerships with clients.",
+    bio: "Saul founded Blackstone Media with a vision to create a different kind of agency — one that values craft, creativity, and genuine partnerships with clients.",
   },
   {
     name: "Alex",
     role: "Head of Development",
     image: `${IMG}/alex-portrait.jpg`,
-    bio: "Alex leads KOTA's development team with a deep understanding of web technologies and a commitment to building performant, scalable digital experiences.",
+    bio: "Alex leads Blackstone Media's development team with a deep understanding of web technologies and a commitment to building performant, scalable digital experiences.",
   },
 ];
 
@@ -1183,7 +1183,7 @@ function Footer() {
               />
             ))}
           </div>
-          <p style={{ fontSize: "1.25rem", color: "#fff" }}>&copy; KOTA 2026</p>
+          <p style={{ fontSize: "1.25rem", color: "#fff" }}>&copy; Blackstone Media 2026</p>
         </div>
       </div>
     </footer>

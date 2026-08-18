@@ -1,4 +1,4 @@
-const SITE_KEY = "kota-co-uk_ddbd9d9c";
+const SITE_KEY = "blackstone-media_ddbd9d9c";
 const PAGE_KEY = "root-dd72c4c6";
 const IMG = `/sites/${SITE_KEY}/${PAGE_KEY}/images`;
 const VID = `/sites/${SITE_KEY}/${PAGE_KEY}/videos`;
@@ -63,7 +63,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A bold digital identity for a creative production studio.",
     longDescription:
-      "Aardvark came to KOTA seeking a digital presence that matched their creative ambition. We delivered a striking brand identity and a website that showcases their portfolio with cinematic flair. The result is a platform that captures attention and converts visitors into clients.",
+      "Aardvark came to Blackstone Media seeking a digital presence that matched their creative ambition. We delivered a striking brand identity and a website that showcases their portfolio with cinematic flair. The result is a platform that captures attention and converts visitors into clients.",
     tags: ["Branding", "Web design & development"],
     sector: "Agencies",
     industry: "Creative Agency",
@@ -85,7 +85,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "Luxury travel brand elevated through elegant design.",
     longDescription:
-      "Adams & Butler needed a website that reflected the luxury and exclusivity of their travel experiences. KOTA crafted a refined digital experience with immersive imagery, smooth interactions, and a visual language that speaks to their discerning clientele.",
+      "Adams & Butler needed a website that reflected the luxury and exclusivity of their travel experiences. Blackstone Media crafted a refined digital experience with immersive imagery, smooth interactions, and a visual language that speaks to their discerning clientele.",
     tags: ["Web design & development"],
     sector: "Retail",
     industry: "Luxury Travel",
@@ -107,7 +107,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "A cutting-edge platform for defence technology innovation.",
     longDescription:
-      "Adaptix required a digital presence that communicated their position at the forefront of defence technology. KOTA designed a clean, authoritative website that balances technical depth with accessible storytelling, positioning Adaptix as a leader in their field.",
+      "Adaptix required a digital presence that communicated their position at the forefront of defence technology. Blackstone Media designed a clean, authoritative website that balances technical depth with accessible storytelling, positioning Adaptix as a leader in their field.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Defence Technology",
@@ -129,7 +129,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "A new brand and website for a leading investor in the European financial sector.",
     longDescription:
-      "AnaCap approached KOTA to create a brand identity and digital platform that would reflect their position as a leading investor in the European financial sector. We delivered a sophisticated brand system and a website that communicates trust, expertise, and performance.",
+      "AnaCap approached Blackstone Media to create a brand identity and digital platform that would reflect their position as a leading investor in the European financial sector. We delivered a sophisticated brand system and a website that communicates trust, expertise, and performance.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Financial Services",
@@ -151,7 +151,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A modern digital platform for an architecture and design firm.",
     longDescription:
-      "Arcturis needed a digital showcase that matched the quality of their architectural work. KOTA created a visually stunning website with project galleries, smooth transitions, and a design language that mirrors the firm's commitment to excellence.",
+      "Arcturis needed a digital showcase that matched the quality of their architectural work. Blackstone Media created a visually stunning website with project galleries, smooth transitions, and a design language that mirrors the firm's commitment to excellence.",
     tags: ["Web design & development"],
     sector: "Agencies",
     industry: "Architecture & Design",
@@ -173,7 +173,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "A new brand, website and app for the service using science to make the world healthier and happier.",
     longDescription:
-      "Bellsant is on a mission to make the world healthier and happier through science-backed wellness solutions. KOTA developed a comprehensive brand identity, a user-friendly website, and a companion app that makes health management accessible and engaging.",
+      "Bellsant is on a mission to make the world healthier and happier through science-backed wellness solutions. Blackstone Media developed a comprehensive brand identity, a user-friendly website, and a companion app that makes health management accessible and engaging.",
     tags: ["Branding", "Web design & development"],
     sector: "Healthcare",
     industry: "Health & Wellness",
@@ -195,7 +195,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2025",
     description: "A brand-led digital transformation for a global platform.",
     longDescription:
-      "Bipsync needed a digital transformation that would elevate their brand on a global stage. KOTA delivered a comprehensive rebrand and a powerful web platform that drives engagement and showcases their research management capabilities.",
+      "Bipsync needed a digital transformation that would elevate their brand on a global stage. Blackstone Media delivered a comprehensive rebrand and a powerful web platform that drives engagement and showcases their research management capabilities.",
     tags: ["Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Research Management",
@@ -217,7 +217,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "A new identity for one of UK's greatest recruitment companies.",
     longDescription:
-      "BMS Performance wanted to redefine their position in the recruitment market. KOTA crafted a fresh brand identity and a dynamic website that reflects their energy, expertise, and commitment to connecting top talent with leading organisations.",
+      "BMS Performance wanted to redefine their position in the recruitment market. Blackstone Media crafted a fresh brand identity and a dynamic website that reflects their energy, expertise, and commitment to connecting top talent with leading organisations.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Recruitment",
@@ -239,7 +239,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2021",
     description: "A vibrant digital experience for the iconic ping pong brand.",
     longDescription:
-      "Bounce needed a website as energetic as their brand. KOTA created a vibrant, interactive digital experience that captures the fun and excitement of their ping pong venues, complete with booking integration and event promotion features.",
+      "Bounce needed a website as energetic as their brand. Blackstone Media created a vibrant, interactive digital experience that captures the fun and excitement of their ping pong venues, complete with booking integration and event promotion features.",
     tags: ["Web design & development"],
     sector: "Retail",
     industry: "Hospitality & Entertainment",
@@ -261,7 +261,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A dynamic digital platform for a leading production company.",
     longDescription:
-      "Box to Box Films needed a digital presence that reflected their stature in the production industry. KOTA delivered a sleek, content-rich website that showcases their productions and attracts top talent and partners.",
+      "Box to Box Films needed a digital presence that reflected their stature in the production industry. Blackstone Media delivered a sleek, content-rich website that showcases their productions and attracts top talent and partners.",
     tags: ["Web design & development"],
     sector: "Media & Entertainment",
     industry: "Film & Television Production",
@@ -283,7 +283,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A refined digital showcase for a leading interior design studio.",
     longDescription:
-      "Brinkworth needed a digital platform that did justice to their award-winning interior designs. KOTA created an immersive website with stunning project photography, smooth navigation, and a design aesthetic that reflects the studio's refined taste.",
+      "Brinkworth needed a digital platform that did justice to their award-winning interior designs. Blackstone Media created an immersive website with stunning project photography, smooth navigation, and a design aesthetic that reflects the studio's refined taste.",
     tags: ["Web design & development"],
     sector: "Agencies",
     industry: "Interior Design",
@@ -305,7 +305,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2021",
     description: "A compassionate digital platform for one of the UK's most trusted charities.",
     longDescription:
-      "The British Red Cross needed a digital platform that could serve millions of users while communicating urgency and compassion. KOTA designed and built a scalable website that drives donations, volunteer sign-ups, and crisis响应.",
+      "The British Red Cross needed a digital platform that could serve millions of users while communicating urgency and compassion. Blackstone Media designed and built a scalable website that drives donations, volunteer sign-ups, and crisis响应.",
     tags: ["Web design & development"],
     sector: "Healthcare",
     industry: "Charity & Non-Profit",
@@ -325,9 +325,9 @@ export const WORK_PROJECTS: WorkProject[] = [
     slug: "bucher-suter",
     title: "Bucher + Suter",
     year: "2026",
-    description: "How Bucher + Suter found brand clarity through a new strategy with KOTA",
+    description: "How Bucher + Suter found brand clarity through a new strategy with Blackstone Media",
     longDescription:
-      "Bucher + Suter needed to unify their brand messaging across global markets. KOTA developed a comprehensive brand strategy, visual identity, and digital platform that brings clarity and consistency to their communications, helping them stand out in the competitive contact centre software market.",
+      "Bucher + Suter needed to unify their brand messaging across global markets. Blackstone Media developed a comprehensive brand strategy, visual identity, and digital platform that brings clarity and consistency to their communications, helping them stand out in the competitive contact centre software market.",
     tags: ["Brand strategy", "Tone of voice", "Visual identity", "Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Contact Centre Software",
@@ -349,7 +349,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2024",
     description: "AI-powered contract lifecycle management, beautifully presented.",
     longDescription:
-      "ContractPodAi needed a digital platform that could communicate the power of their AI-driven contract management solution. KOTA designed a sophisticated website that makes complex technology accessible and compelling to enterprise buyers.",
+      "ContractPodAi needed a digital platform that could communicate the power of their AI-driven contract management solution. Blackstone Media designed a sophisticated website that makes complex technology accessible and compelling to enterprise buyers.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Legal Technology",
@@ -371,7 +371,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A visually striking platform for a retail design agency.",
     longDescription:
-      "Design4Retail needed a digital showcase that reflected their creative prowess in retail design. KOTA crafted a visually rich website with immersive project galleries and smooth interactions that demonstrate their design philosophy.",
+      "Design4Retail needed a digital showcase that reflected their creative prowess in retail design. Blackstone Media crafted a visually rich website with immersive project galleries and smooth interactions that demonstrate their design philosophy.",
     tags: ["Web design & development"],
     sector: "Retail",
     industry: "Retail Design",
@@ -393,7 +393,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2024",
     description: "A dynamic web platform for a forward-thinking architecture practice.",
     longDescription:
-      "DKA needed a digital presence that captured their innovative approach to architecture. KOTA designed and built a dynamic website with project showcases, team profiles, and a design language that reflects their commitment to pushing boundaries.",
+      "DKA needed a digital presence that captured their innovative approach to architecture. Blackstone Media designed and built a dynamic website with project showcases, team profiles, and a design language that reflects their commitment to pushing boundaries.",
     tags: ["Web design & development"],
     sector: "Agencies",
     industry: "Architecture",
@@ -415,7 +415,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2025",
     description: "A new vision for modern wealth management.",
     longDescription:
-      "Finura is redefining wealth management for a new generation. KOTA developed a brand identity and digital platform that communicates sophistication, trust, and innovation, helping Finura stand out in a crowded financial services landscape.",
+      "Finura is redefining wealth management for a new generation. Blackstone Media developed a brand identity and digital platform that communicates sophistication, trust, and innovation, helping Finura stand out in a crowded financial services landscape.",
     tags: ["Tone of voice", "Visual identity", "Brand strategy", "Web design & development"],
     sector: "Finance",
     industry: "Wealth Management",
@@ -437,7 +437,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "A modern digital platform for a forward-thinking lending company.",
     longDescription:
-      "Floan needed a website that could communicate their innovative approach to lending. KOTA designed a clean, trustworthy digital experience that makes financial services feel approachable and modern.",
+      "Floan needed a website that could communicate their innovative approach to lending. Blackstone Media designed a clean, trustworthy digital experience that makes financial services feel approachable and modern.",
     tags: ["Branding", "Web design & development"],
     sector: "Finance",
     industry: "Financial Services",
@@ -459,7 +459,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2024",
     description: "Inside Florence's stunning brand and digital transformation.",
     longDescription:
-      "Florence is transforming elderly care through technology. KOTA developed a comprehensive brand identity and digital platform that communicates warmth, trust, and innovation, helping Florence connect with carers and care homes across the UK.",
+      "Florence is transforming elderly care through technology. Blackstone Media developed a comprehensive brand identity and digital platform that communicates warmth, trust, and innovation, helping Florence connect with carers and care homes across the UK.",
     tags: ["Branding", "Web design & development"],
     sector: "Healthcare",
     industry: "Healthcare Technology",
@@ -481,7 +481,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A sleek digital presence for an architecture and design studio.",
     longDescription:
-      "Futureform needed a digital platform that reflected their forward-thinking approach to architecture. KOTA created a minimalist, elegant website that lets their work speak for itself while providing an exceptional user experience.",
+      "Futureform needed a digital platform that reflected their forward-thinking approach to architecture. Blackstone Media created a minimalist, elegant website that lets their work speak for itself while providing an exceptional user experience.",
     tags: ["Web design & development"],
     sector: "Agencies",
     industry: "Architecture & Design",
@@ -503,7 +503,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A recruitment brand redefined through bold digital design.",
     longDescription:
-      "Goodman Masson wanted to stand out in the competitive recruitment market. KOTA delivered a bold brand refresh and a dynamic website that captures their energy and expertise, driving candidate and client engagement.",
+      "Goodman Masson wanted to stand out in the competitive recruitment market. Blackstone Media delivered a bold brand refresh and a dynamic website that captures their energy and expertise, driving candidate and client engagement.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Recruitment",
@@ -525,7 +525,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "A premium digital platform for a leading energy storage investor.",
     longDescription:
-      "Gore Street Capital needed a digital presence that reflected their position as a leader in energy storage investment. KOTA designed a sophisticated website that communicates expertise, trust, and forward-thinking vision.",
+      "Gore Street Capital needed a digital presence that reflected their position as a leader in energy storage investment. Blackstone Media designed a sophisticated website that communicates expertise, trust, and forward-thinking vision.",
     tags: ["Branding", "Web design & development"],
     sector: "Finance",
     industry: "Investment Management",
@@ -547,7 +547,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "We took on the challenge of creating a new website for Egypt's largest engineering and construction company.",
     longDescription:
-      "Hassan Allam is Egypt's largest engineering and construction company. KOTA created a powerful digital platform that showcases their massive portfolio, communicates their scale and capability, and positions them as a regional leader in infrastructure development.",
+      "Hassan Allam is Egypt's largest engineering and construction company. Blackstone Media created a powerful digital platform that showcases their massive portfolio, communicates their scale and capability, and positions them as a regional leader in infrastructure development.",
     tags: ["Web design & development"],
     sector: "B2B transformation",
     industry: "Engineering & Construction",
@@ -569,7 +569,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "An elegant digital showcase for a luxury property developer.",
     longDescription:
-      "Holland Green needed a website that conveyed the luxury and craftsmanship of their properties. KOTA created an elegant, immersive digital experience with stunning property showcases, virtual tours, and a refined design aesthetic.",
+      "Holland Green needed a website that conveyed the luxury and craftsmanship of their properties. Blackstone Media created an elegant, immersive digital experience with stunning property showcases, virtual tours, and a refined design aesthetic.",
     tags: ["Web design & development"],
     sector: "Retail",
     industry: "Property Development",
@@ -591,7 +591,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2025",
     description: "We designed for play with Incentive Games' new website.",
     longDescription:
-      "Incentive Games creates engaging digital games that drive customer loyalty. KOTA designed a playful yet professional website that showcases their game portfolio, communicates their technology, and attracts new business partners.",
+      "Incentive Games creates engaging digital games that drive customer loyalty. Blackstone Media designed a playful yet professional website that showcases their game portfolio, communicates their technology, and attracts new business partners.",
     tags: ["Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Gaming Technology",
@@ -613,7 +613,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2025",
     description: "We revamped this global design agency's digital identity.",
     longDescription:
-      "ISI Global needed a digital transformation that would elevate their presence on the world stage. KOTA redesigned their brand and built a powerful website that showcases their design capabilities and attracts international clients.",
+      "ISI Global needed a digital transformation that would elevate their presence on the world stage. Blackstone Media redesigned their brand and built a powerful website that showcases their design capabilities and attracts international clients.",
     tags: ["Branding", "Web design & development"],
     sector: "Agencies",
     industry: "Design Agency",
@@ -635,7 +635,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2019",
     description: "A delicious digital experience for Jamie Oliver's 5 Ingredients cookbook.",
     longDescription:
-      "KOTA created an immersive digital companion for Jamie Oliver's 5 Ingredients cookbook. The website features beautiful recipe photography, interactive cooking guides, and a design that captures the simplicity and joy of cooking with just five ingredients.",
+      "Blackstone Media created an immersive digital companion for Jamie Oliver's 5 Ingredients cookbook. The website features beautiful recipe photography, interactive cooking guides, and a design that captures the simplicity and joy of cooking with just five ingredients.",
     tags: ["Web design & development"],
     sector: "Media & Entertainment",
     industry: "Food & Lifestyle",
@@ -657,7 +657,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2019",
     description: "Creative digital design for Jamie Oliver's 7 Ways campaign.",
     longDescription:
-      "Following the success of 5 Ingredients, KOTA partnered with Jamie Oliver again for the 7 Ways campaign. The digital experience showcases creative recipe content with the same warm, accessible design philosophy.",
+      "Following the success of 5 Ingredients, Blackstone Media partnered with Jamie Oliver again for the 7 Ways campaign. The digital experience showcases creative recipe content with the same warm, accessible design philosophy.",
     tags: ["Web design & development"],
     sector: "Media & Entertainment",
     industry: "Food & Lifestyle",
@@ -679,7 +679,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A soulful digital experience for Camden's legendary music venue.",
     longDescription:
-      "The Jazz Cafe needed a website that captured the soul and energy of one of London's most iconic music venues. KOTA designed a vibrant digital experience with event listings, ticket integration, and a design that resonates with music lovers.",
+      "The Jazz Cafe needed a website that captured the soul and energy of one of London's most iconic music venues. Blackstone Media designed a vibrant digital experience with event listings, ticket integration, and a design that resonates with music lovers.",
     tags: ["Web design & development"],
     sector: "Media & Entertainment",
     industry: "Music & Entertainment",
@@ -701,7 +701,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A warm and inviting digital presence for a specialty coffee brand.",
     longDescription:
-      "Little's Coffee needed a website that conveyed the warmth and quality of their specialty coffee. KOTA created an inviting digital experience with e-commerce integration, brand storytelling, and a design that makes you almost taste the coffee.",
+      "Little's Coffee needed a website that conveyed the warmth and quality of their specialty coffee. Blackstone Media created an inviting digital experience with e-commerce integration, brand storytelling, and a design that makes you almost taste the coffee.",
     tags: ["Branding", "Web design & development"],
     sector: "Retail",
     industry: "Food & Beverage",
@@ -723,7 +723,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A dynamic platform for a brand consultancy with passion.",
     longDescription:
-      "Love Brands needed a digital presence that reflected their passion for brand building. KOTA designed a bold, energetic website that showcases their portfolio and communicates their strategic approach to brand consultancy.",
+      "Love Brands needed a digital presence that reflected their passion for brand building. Blackstone Media designed a bold, energetic website that showcases their portfolio and communicates their strategic approach to brand consultancy.",
     tags: ["Branding", "Web design & development"],
     sector: "Agencies",
     industry: "Brand Consultancy",
@@ -745,7 +745,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A premium digital experience for a luxury materials brand.",
     longDescription:
-      "Luxmill needed a website that communicated the premium quality of their materials. KOTA created an elegant, tactile digital experience with material showcases, project galleries, and a design that exudes luxury.",
+      "Luxmill needed a website that communicated the premium quality of their materials. Blackstone Media created an elegant, tactile digital experience with material showcases, project galleries, and a design that exudes luxury.",
     tags: ["Web design & development"],
     sector: "Retail",
     industry: "Luxury Materials",
@@ -767,7 +767,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2019",
     description: "We created a cutting edge platform for San Francisco-based firm Martin Building.",
     longDescription:
-      "Martin Building is a San Francisco-based construction firm known for innovative projects. KOTA created a cutting-edge digital platform that showcases their portfolio, communicates their expertise, and positions them as industry leaders.",
+      "Martin Building is a San Francisco-based construction firm known for innovative projects. Blackstone Media created a cutting-edge digital platform that showcases their portfolio, communicates their expertise, and positions them as industry leaders.",
     tags: ["Branding", "Web design & development"],
     sector: "Agencies",
     industry: "Construction",
@@ -789,7 +789,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A creative digital showcase for a leading animation studio.",
     longDescription:
-      "Mercury Filmworks needed a digital platform that reflected their creative excellence in animation. KOTA designed a visually stunning website that brings their portfolio to life with smooth animations and engaging interactions.",
+      "Mercury Filmworks needed a digital platform that reflected their creative excellence in animation. Blackstone Media designed a visually stunning website that brings their portfolio to life with smooth animations and engaging interactions.",
     tags: ["Web design & development"],
     sector: "Media & Entertainment",
     industry: "Animation & Film",
@@ -811,7 +811,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2025",
     description: "A brand built for the next chapter at MGN Events",
     longDescription:
-      "MGN Events needed a brand identity and digital platform for their next chapter. KOTA developed a fresh, contemporary brand and a website that showcases their event management capabilities while communicating professionalism and creativity.",
+      "MGN Events needed a brand identity and digital platform for their next chapter. Blackstone Media developed a fresh, contemporary brand and a website that showcases their event management capabilities while communicating professionalism and creativity.",
     tags: ["Tone of voice", "Visual identity", "Brand strategy", "Web design & development"],
     sector: "Media & Entertainment",
     industry: "Event Management",
@@ -833,7 +833,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2025",
     description: "Charting a new digital frontier for the future of maritime tech.",
     longDescription:
-      "Navarino is at the forefront of maritime technology. KOTA created a forward-thinking digital platform that communicates their innovation, showcases their solutions, and positions them as a leader in the maritime tech space.",
+      "Navarino is at the forefront of maritime technology. Blackstone Media created a forward-thinking digital platform that communicates their innovation, showcases their solutions, and positions them as a leader in the maritime tech space.",
     tags: ["Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Maritime Technology",
@@ -855,7 +855,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A compelling digital presence for a leading documentary production company.",
     longDescription:
-      "Nutopia produces some of the world's most compelling documentaries. KOTA designed a cinematic digital platform that showcases their productions with the gravitas and visual storytelling they deserve.",
+      "Nutopia produces some of the world's most compelling documentaries. Blackstone Media designed a cinematic digital platform that showcases their productions with the gravitas and visual storytelling they deserve.",
     tags: ["Web design & development"],
     sector: "Media & Entertainment",
     industry: "Documentary Production",
@@ -877,7 +877,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2024",
     description: "We crafted a bold new site for a fast-growing prefab brand.",
     longDescription:
-      "Okopod is revolutionising prefab living with beautifully designed modular spaces. KOTA created a bold, modern website that showcases their pods, communicates their sustainable approach, and drives enquiries from design-savvy customers.",
+      "Okopod is revolutionising prefab living with beautifully designed modular spaces. Blackstone Media created a bold, modern website that showcases their pods, communicates their sustainable approach, and drives enquiries from design-savvy customers.",
     tags: ["Web design & development"],
     sector: "Retail",
     industry: "Prefab Architecture",
@@ -899,7 +899,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A polished digital platform for an independent television production company.",
     longDescription:
-      "Optomen needed a digital presence that reflected their reputation for producing high-quality television content. KOTA designed a sophisticated website that showcases their production portfolio and attracts talent and broadcast partners.",
+      "Optomen needed a digital presence that reflected their reputation for producing high-quality television content. Blackstone Media designed a sophisticated website that showcases their production portfolio and attracts talent and broadcast partners.",
     tags: ["Web design & development"],
     sector: "Media & Entertainment",
     industry: "Television Production",
@@ -921,7 +921,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "We created a fresh new platform for an innovative healthcare staffing solution.",
     longDescription:
-      "Patchwork Health is transforming healthcare staffing with their innovative platform. KOTA designed and built a fresh, modern website that communicates their mission, attracts healthcare professionals, and drives hospital partnerships.",
+      "Patchwork Health is transforming healthcare staffing with their innovative platform. Blackstone Media designed and built a fresh, modern website that communicates their mission, attracts healthcare professionals, and drives hospital partnerships.",
     tags: ["Web design & development"],
     sector: "Healthcare",
     industry: "Healthcare Technology",
@@ -943,7 +943,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2021",
     description: "A sensory digital experience for a luxury British fragrance house.",
     longDescription:
-      "Penhaligon's is one of Britain's most prestigious fragrance houses. KOTA created a sensory digital experience that captures the essence of their perfumes through beautiful imagery, video content, and an elegant design language.",
+      "Penhaligon's is one of Britain's most prestigious fragrance houses. Blackstone Media created a sensory digital experience that captures the essence of their perfumes through beautiful imagery, video content, and an elegant design language.",
     tags: ["Web design & development"],
     sector: "Retail",
     industry: "Luxury Fragrance",
@@ -965,7 +965,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2024",
     description: "A groundbreaking digital platform for a neurotechnology company.",
     longDescription:
-      "Pison is pioneering neurotechnology that unlocks human potential. KOTA designed a cutting-edge digital platform that communicates their revolutionary technology, attracts investors, and positions them as leaders in the neurotech space.",
+      "Pison is pioneering neurotechnology that unlocks human potential. Blackstone Media designed a cutting-edge digital platform that communicates their revolutionary technology, attracts investors, and positions them as leaders in the neurotech space.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Neurotechnology",
@@ -987,7 +987,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A vibrant digital showcase for an immersive experiences agency.",
     longDescription:
-      "Pixel Artworks creates immersive experiences that captivate audiences. KOTA designed a vibrant, interactive website that showcases their projects with the same level of immersion and creativity they bring to their work.",
+      "Pixel Artworks creates immersive experiences that captivate audiences. Blackstone Media designed a vibrant, interactive website that showcases their projects with the same level of immersion and creativity they bring to their work.",
     tags: ["Web design & development"],
     sector: "Agencies",
     industry: "Immersive Experiences",
@@ -1009,7 +1009,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A confident digital platform for a leading staffing solutions provider.",
     longDescription:
-      "Rapport needed a digital presence that communicated their expertise in staffing solutions. KOTA designed a confident, professional website that drives client engagement and showcases their track record of success.",
+      "Rapport needed a digital presence that communicated their expertise in staffing solutions. Blackstone Media designed a confident, professional website that drives client engagement and showcases their track record of success.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Staffing Solutions",
@@ -1031,7 +1031,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A hip digital experience for a vinyl-inspired bar concept.",
     longDescription:
-      "Records Bars combines great drinks with vinyl music culture. KOTA created a hip, atmospheric digital experience that captures the brand's unique vibe, with event listings, music features, and venue information.",
+      "Records Bars combines great drinks with vinyl music culture. Blackstone Media created a hip, atmospheric digital experience that captures the brand's unique vibe, with event listings, music features, and venue information.",
     tags: ["Branding", "Web design & development"],
     sector: "Retail",
     industry: "Hospitality",
@@ -1053,7 +1053,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "A sleek digital platform for a sports marketing agency.",
     longDescription:
-      "Right Formula connects brands with the world of sport. KOTA designed a sleek, dynamic website that showcases their partnerships with top athletes and sports organisations, driving new business and talent acquisition.",
+      "Right Formula connects brands with the world of sport. Blackstone Media designed a sleek, dynamic website that showcases their partnerships with top athletes and sports organisations, driving new business and talent acquisition.",
     tags: ["Branding", "Web design & development"],
     sector: "Agencies",
     industry: "Sports Marketing",
@@ -1075,7 +1075,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2024",
     description: "A bold digital transformation for a fintech workforce platform.",
     longDescription:
-      "Sonovate provides innovative finance and payment solutions for the recruitment industry. KOTA delivered a bold brand refresh and a powerful digital platform that communicates their fintech expertise and drives business growth.",
+      "Sonovate provides innovative finance and payment solutions for the recruitment industry. Blackstone Media delivered a bold brand refresh and a powerful digital platform that communicates their fintech expertise and drives business growth.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Fintech",
@@ -1097,7 +1097,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A creative digital platform for an independent media agency.",
     longDescription:
-      "Stepping Stone Media needed a digital presence that reflected their creative approach to media. KOTA designed a dynamic website that showcases their campaigns, communicates their strategy, and attracts new clients.",
+      "Stepping Stone Media needed a digital presence that reflected their creative approach to media. Blackstone Media designed a dynamic website that showcases their campaigns, communicates their strategy, and attracts new clients.",
     tags: ["Branding", "Web design & development"],
     sector: "Agencies",
     industry: "Media Agency",
@@ -1119,7 +1119,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2021",
     description: "A premium digital experience for an iconic vodka brand.",
     longDescription:
-      "Stoli is one of the world's most recognised vodka brands. KOTA created a premium digital experience that celebrates the brand's heritage while showcasing their modern cocktail culture and premium positioning.",
+      "Stoli is one of the world's most recognised vodka brands. Blackstone Media created a premium digital experience that celebrates the brand's heritage while showcasing their modern cocktail culture and premium positioning.",
     tags: ["Web design & development"],
     sector: "Retail",
     industry: "Spirits & Beverages",
@@ -1141,7 +1141,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2021",
     description: "We crafted a beautiful website for the boutique yacht brokerage, SuperYachtsMonaco.",
     longDescription:
-      "Super Yachts Monaco is a boutique yacht brokerage based in Monaco. KOTA crafted a beautiful, immersive digital experience that showcases their exclusive yacht portfolio with stunning imagery, detailed specifications, and an elegant design that reflects the luxury lifestyle.",
+      "Super Yachts Monaco is a boutique yacht brokerage based in Monaco. Blackstone Media crafted a beautiful, immersive digital experience that showcases their exclusive yacht portfolio with stunning imagery, detailed specifications, and an elegant design that reflects the luxury lifestyle.",
     tags: ["Web design & development"],
     sector: "Retail",
     industry: "Luxury Yachting",
@@ -1163,7 +1163,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "We took on the challenge of creating the new website for tangerine, a global pioneer in design.",
     longDescription:
-      "Tangerine is a global pioneer in design, known for their work in aviation, automotive, and product design. KOTA created a stunning digital platform that showcases their design portfolio with the same level of craft and innovation they bring to their projects.",
+      "Tangerine is a global pioneer in design, known for their work in aviation, automotive, and product design. Blackstone Media created a stunning digital platform that showcases their design portfolio with the same level of craft and innovation they bring to their projects.",
     tags: ["Web design & development"],
     sector: "Agencies",
     industry: "Design Agency",
@@ -1185,7 +1185,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2025",
     description: "Influence everywhere: a future-ready website for The Goat Agency.",
     longDescription:
-      "The Goat Agency is the world's largest influencer marketing agency. KOTA created a future-ready digital platform that showcases their influencer campaigns, communicates their data-driven approach, and positions them as the leader in influencer marketing.",
+      "The Goat Agency is the world's largest influencer marketing agency. Blackstone Media created a future-ready digital platform that showcases their influencer campaigns, communicates their data-driven approach, and positions them as the leader in influencer marketing.",
     tags: ["Web design & development"],
     sector: "Agencies",
     industry: "Influencer Marketing",
@@ -1207,7 +1207,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A refined digital platform for a premium brand consultancy.",
     longDescription:
-      "The Halo Group is a premium brand consultancy that helps businesses build meaningful brands. KOTA designed a refined, strategic website that communicates their methodology, showcases their case studies, and attracts high-value clients.",
+      "The Halo Group is a premium brand consultancy that helps businesses build meaningful brands. Blackstone Media designed a refined, strategic website that communicates their methodology, showcases their case studies, and attracts high-value clients.",
     tags: ["Branding", "Web design & development"],
     sector: "Agencies",
     industry: "Brand Consultancy",
@@ -1229,7 +1229,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "A clean digital platform for a property technology company.",
     longDescription:
-      "Trace Solutions provides innovative property management software. KOTA designed a clean, professional website that communicates their technology, demonstrates their value proposition, and drives demo requests from property professionals.",
+      "Trace Solutions provides innovative property management software. Blackstone Media designed a clean, professional website that communicates their technology, demonstrates their value proposition, and drives demo requests from property professionals.",
     tags: ["Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Property Technology",
@@ -1251,7 +1251,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2024",
     description: "A powerful digital platform for an ATS and recruitment software provider.",
     longDescription:
-      "Tribepad provides applicant tracking systems and recruitment software. KOTA designed a powerful digital platform that showcases their product capabilities, communicates their ROI, and drives enterprise sales.",
+      "Tribepad provides applicant tracking systems and recruitment software. Blackstone Media designed a powerful digital platform that showcases their product capabilities, communicates their ROI, and drives enterprise sales.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "HR Technology",
@@ -1273,7 +1273,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "An elegant digital experience for a luxury jewellery education platform.",
     longDescription:
-      "Understanding Jewellery is a premium platform for jewellery education. KOTA created an elegant digital experience that showcases fine jewellery with detailed imagery, educational content, and a design that reflects the beauty of the craft.",
+      "Understanding Jewellery is a premium platform for jewellery education. Blackstone Media created an elegant digital experience that showcases fine jewellery with detailed imagery, educational content, and a design that reflects the beauty of the craft.",
     tags: ["Web design & development"],
     sector: "Retail",
     industry: "Luxury Jewellery",
@@ -1295,7 +1295,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2025",
     description: "A cinematic web experience for a Hollywood powerhouse.",
     longDescription:
-      "UPP is a major player in the entertainment industry. KOTA created a cinematic web experience that matches their Hollywood stature, with immersive video content, dynamic interactions, and a design language that commands attention.",
+      "UPP is a major player in the entertainment industry. Blackstone Media created a cinematic web experience that matches their Hollywood stature, with immersive video content, dynamic interactions, and a design language that commands attention.",
     tags: ["Web design & development"],
     sector: "Agencies",
     industry: "Entertainment",
@@ -1317,7 +1317,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2023",
     description: "We completely transformed the image of Bristol's finest coffee company.",
     longDescription:
-      "Wogan Coffee is Bristol's finest coffee company. KOTA completely transformed their brand and digital presence, creating an e-commerce platform, brand storytelling, and a design that captures the warmth and quality of their specialty coffee.",
+      "Wogan Coffee is Bristol's finest coffee company. Blackstone Media completely transformed their brand and digital presence, creating an e-commerce platform, brand storytelling, and a design that captures the warmth and quality of their specialty coffee.",
     tags: ["Branding", "Web design & development", "E-Commerce", "Digital Marketing"],
     sector: "Retail",
     industry: "Coffee & Beverages",
@@ -1339,7 +1339,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A polished digital platform for a leading talent management company.",
     longDescription:
-      "YMU Group is one of the world's leading talent management companies. KOTA designed a polished, prestigious digital platform that showcases their roster, communicates their expertise, and attracts both talent and brand partners.",
+      "YMU Group is one of the world's leading talent management companies. Blackstone Media designed a polished, prestigious digital platform that showcases their roster, communicates their expertise, and attracts both talent and brand partners.",
     tags: ["Branding", "Web design & development"],
     sector: "Media & Entertainment",
     industry: "Talent Management",
@@ -1361,7 +1361,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2022",
     description: "A bold digital identity for a forward-thinking brand.",
     longDescription:
-      "Zebra needed a digital presence that stood out from the crowd. KOTA created a bold, distinctive brand identity and website that communicates their unique positioning and attracts their target audience.",
+      "Zebra needed a digital presence that stood out from the crowd. Blackstone Media created a bold, distinctive brand identity and website that communicates their unique positioning and attracts their target audience.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Technology",
@@ -1383,7 +1383,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     year: "2025",
     description: "Brand transformation for the UK's fastest-growing Salesforce partner.",
     longDescription:
-      "Ziipline is the UK's fastest-growing Salesforce partner. KOTA delivered a comprehensive brand transformation and digital platform that communicates their Salesforce expertise, showcases their implementations, and drives enterprise leads.",
+      "Ziipline is the UK's fastest-growing Salesforce partner. Blackstone Media delivered a comprehensive brand transformation and digital platform that communicates their Salesforce expertise, showcases their implementations, and drives enterprise leads.",
     tags: ["Branding", "Web design & development"],
     sector: "B2B tech, software & SaaS",
     industry: "Salesforce Consultancy",

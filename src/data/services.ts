@@ -31,7 +31,7 @@ export interface ServiceData {
   }[];
 }
 
-const IMG = "/sites/kota-co-uk_ddbd9d9c/root-dd72c4c6/images";
+const IMG = "/sites/blackstone-media_ddbd9d9c/root-dd72c4c6/images";
 
 export const services: Record<string, ServiceData> = {
   "brand-strategy-and-identity": {
@@ -97,7 +97,7 @@ export const services: Record<string, ServiceData> = {
     ],
     testimonials: [
       {
-        quote: "KOTA transformed our brand from forgettable to unmistakable.",
+        quote: "Blackstone Media transformed our brand from forgettable to unmistakable.",
         author: "Sarah Chen",
         role: "CEO, Copper",
       },

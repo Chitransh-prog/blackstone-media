@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const SITE_KEY = "kota-co-uk_ddbd9d9c";
+const SITE_KEY = "blackstone-media_ddbd9d9c";
 const PAGE_KEY = "root-dd72c4c6";
 const IMG = `/sites/${SITE_KEY}/${PAGE_KEY}/images`;
 const VID = `/sites/${SITE_KEY}/${PAGE_KEY}/videos`;
@@ -103,7 +103,7 @@ const PROJECTS = [
   {
     title: "Bucher + Suter",
     year: "2026",
-    description: "How Bucher + Suter found brand clarity through a new strategy with KOTA",
+    description: "How Bucher + Suter found brand clarity through a new strategy with Blackstone Media",
     tags: ["Tone of voice", "Visual identity", "Brand strategy", "Branding", "Web design & development"],
     sector: "SaaS and Tech",
     image: `${IMG}/featured-image.png`,
@@ -188,7 +188,7 @@ const PARTNERS = [
 const TESTIMONIALS = [
   {
     quote:
-      "\"It was our brand positioning work that really made everything click. KOTA were empathetic, patient, flexible, quick, and, most importantly, incredibly talented with brand positioning, visual identity, and digital experiences. I've already recommended them twice!\"",
+      "\"It was our brand positioning work that really made everything click. Blackstone Media were empathetic, patient, flexible, quick, and, most importantly, incredibly talented with brand positioning, visual identity, and digital experiences. I've already recommended them twice!\"",
     author: "Shanice Daeche",
     role: "CMO",
   },
@@ -200,7 +200,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "\"KOTA brought a level of strategic thinking and creative execution that we hadn't seen before. They didn't just build us a website — they gave us a platform that drives real business results.\"",
+      "\"Blackstone Media brought a level of strategic thinking and creative execution that we hadn't seen before. They didn't just build us a website — they gave us a platform that drives real business results.\"",
     author: "James Wright",
     role: "CEO",
   },
@@ -228,7 +228,7 @@ const FAQS = [
       "We work with businesses at every stage — from ambitious startups looking to make their mark, to established brands seeking refresh and growth. Our approach scales to fit your needs and budget.",
   },
   {
-    question: "What makes KOTA different from other agencies?",
+    question: "What makes Blackstone Media different from other agencies?",
     answer:
       "We're a brand-to-build agency — meaning we handle everything from strategy and identity through to web design, development, and ongoing marketing. This end-to-end approach ensures consistency and efficiency across every touchpoint.",
   },
@@ -242,19 +242,19 @@ const ARTICLES = [
     link: "#",
   },
   {
-    title: "Design with guts: KOTA's manifesto for creative bravery",
+    title: "Design with guts: Blackstone Media's manifesto for creative bravery",
     tags: "Expertise, Inspiration",
     image: `${IMG}/design-with-guts.png`,
     link: "#",
   },
   {
-    title: "KOTA wins a Lovie award for Best Web Design – Aesthetic!",
+    title: "Blackstone Media wins a Lovie award for Best Web Design – Aesthetic!",
     tags: "Culture, Our work",
     image: `${IMG}/lovie-awards.png`,
     link: "#",
   },
   {
-    title: "Brand-First vs Dev-First: What actually sets KOTA apart",
+    title: "Brand-First vs Dev-First: What actually sets Blackstone Media apart",
     tags: "Expertise",
     image: `${IMG}/rebel-against-boring.png`,
     link: "#",
@@ -1855,7 +1855,7 @@ function Footer() {
           {/* Col 1 */}
           <div>
             <a
-              href="mailto:hello@kota.co.uk"
+              href="mailto:hello@blackstonemedia.com"
               className="rainbow-text"
               style={{
                 fontSize: "clamp(1.25rem, 7.1vw, 7.5rem)",
@@ -1868,7 +1868,7 @@ function Footer() {
                 wordBreak: "break-all",
               }}
             >
-              hello@kota.co.uk
+              hello@blackstonemedia.com
             </a>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem", marginTop: "1.5rem" }}>
               {["LinkedIn", "Facebook", "Instagram", "Bluesky"].map((social) => (
@@ -2066,7 +2066,7 @@ function Footer() {
               />
             ))}
           </div>
-          <p style={{ fontSize: "1.25rem", color: "#fff" }}>© KOTA 2026</p>
+          <p style={{ fontSize: "1.25rem", color: "#fff" }}>© Blackstone Media 2026</p>
         </div>
       </div>
     </footer>

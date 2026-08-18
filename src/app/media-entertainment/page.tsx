@@ -10,7 +10,7 @@ import {
   containerStyle,
 } from "@/components/shared";
 
-const SITE_KEY = "kota-co-uk_ddbd9d9c";
+const SITE_KEY = "blackstone-media_ddbd9d9c";
 const PAGE_KEY = "root-dd72c4c6";
 const IMG = `/sites/${SITE_KEY}/${PAGE_KEY}/images`;
 
@@ -86,7 +86,7 @@ const ARTICLES = [
 
 const TESTIMONIALS = [
   {
-    quote: "KOTA brought our vision to life with stunning creativity. The new platform has transformed how our audiences interact with our content.",
+    quote: "Blackstone Media brought our vision to life with stunning creativity. The new platform has transformed how our audiences interact with our content.",
     author: "Michael Torres",
     role: "Creative Director, Media Studio",
   },
@@ -443,7 +443,7 @@ function FeaturesSection() {
           >
             Why choose
             <br />
-            KOTA?
+            Blackstone Media?
           </h2>
         </FadeIn>
 
@@ -801,7 +801,7 @@ function CTASection() {
         </FadeIn>
         <FadeIn delay={0.15}>
           <a
-            href="mailto:hello@kota.co.uk"
+            href="mailto:hello@blackstonemedia.com"
             className="rainbow-text"
             style={{
               fontSize: "clamp(1.25rem, 3vw, 2.5rem)",
@@ -811,7 +811,7 @@ function CTASection() {
               marginBottom: "2rem",
             }}
           >
-            hello@kota.co.uk
+            hello@blackstonemedia.com
           </a>
         </FadeIn>
         <FadeIn delay={0.2}>

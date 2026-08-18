@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const SITE_KEY = "kota-co-uk_ddbd9d9c";
+const SITE_KEY = "blackstone-media_ddbd9d9c";
 const PAGE_KEY = "root-dd72c4c6";
 const IMG = `/sites/${SITE_KEY}/${PAGE_KEY}/images`;
 
@@ -579,7 +579,7 @@ function ContactForm() {
                     accentColor: "#000",
                   }}
                 />
-                I&apos;m happy to receive a monthly newsletter from KOTA
+                I&apos;m happy to receive a monthly newsletter from Blackstone Media
               </label>
               <label
                 style={{
@@ -604,7 +604,7 @@ function ContactForm() {
                     accentColor: "#000",
                   }}
                 />
-                I understand that KOTA will securely hold my data in accordance
+                I understand that Blackstone Media will securely hold my data in accordance
                 with their privacy policy.
               </label>
             </div>
@@ -689,7 +689,7 @@ function ContactDetails() {
                     color: "#000",
                   }}
                 >
-                  KOTA
+                  Blackstone Media
                   <br />
                   1-5 Clerkenwell Rd
                   <br />
@@ -717,7 +717,7 @@ function ContactDetails() {
                     color: "#000",
                   }}
                 >
-                  KOTA
+                  Blackstone Media
                   <br />
                   477 Madison Ave
                   <br />
@@ -758,7 +758,7 @@ function ContactDetails() {
                 href="#"
                 style={{ color: "#000", textDecoration: "underline" }}
               >
-                Working with KOTA
+                Working with Blackstone Media
               </Link>
             </p>
           </FadeIn>
@@ -766,9 +766,9 @@ function ContactDetails() {
           <FadeIn delay={0.1} style={{ gridColumn: "span 5" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
               {[
-                { label: "General", email: "hello@kota.co.uk" },
-                { label: "New business", email: "newbiz@kota.co.uk" },
-                { label: "Careers", email: "careers@kota.co.uk" },
+                { label: "General", email: "hello@blackstonemedia.com" },
+                { label: "New business", email: "newbiz@blackstonemedia.com" },
+                { label: "Careers", email: "careers@blackstonemedia.com" },
               ].map((item) => (
                 <div key={item.email}>
                   <p
@@ -886,7 +886,7 @@ function Footer() {
         >
           <div>
             <a
-              href="mailto:hello@kota.co.uk"
+              href="mailto:hello@blackstonemedia.com"
               className="rainbow-text"
               style={{
                 fontSize: "clamp(1.25rem, 7.1vw, 7.5rem)",
@@ -899,7 +899,7 @@ function Footer() {
                 wordBreak: "break-all",
               }}
             >
-              hello@kota.co.uk
+              hello@blackstonemedia.com
             </a>
             <div
               style={{
@@ -1106,7 +1106,7 @@ function Footer() {
               />
             ))}
           </div>
-          <p style={{ fontSize: "1.25rem", color: "#fff" }}>&copy; KOTA 2026</p>
+          <p style={{ fontSize: "1.25rem", color: "#fff" }}>&copy; Blackstone Media 2026</p>
         </div>
       </div>
     </footer>
