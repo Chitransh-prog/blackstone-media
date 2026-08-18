@@ -85,6 +85,7 @@ export function Header() {
 
   return (
     <>
+      {/* Top bar: logo + desktop nav */}
       <header
         style={{
           position: "fixed",
@@ -96,7 +97,7 @@ export function Header() {
           alignItems: "center",
           padding: "1.625rem 7vw",
           pointerEvents: "none",
-          zIndex: menuOpen ? 60 : 10,
+          zIndex: 10,
         }}
       >
         <Link href="/" style={{ pointerEvents: "all" }}>
@@ -141,52 +142,55 @@ export function Header() {
             Hire us
           </Link>
         </nav>
-
-        {/* Mobile hamburger */}
-        <button
-          className="header-hamburger"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle navigation"
-          style={{
-            pointerEvents: "all",
-            width: "3.25rem",
-            height: "3.25rem",
-            border: "2px solid #000",
-            borderRadius: "100%",
-            background: "#fff",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: 0,
-            cursor: "pointer",
-            padding: 0,
-          }}
-        >
-          <span
-            style={{
-              width: "24px",
-              height: "2px",
-              background: "#000",
-              transform: menuOpen
-                ? "translateY(0px) rotate(45deg)"
-                : "translateY(-3px)",
-              transition: "all 0.3s ease",
-            }}
-          />
-          <span
-            style={{
-              width: "24px",
-              height: "2px",
-              background: "#000",
-              transform: menuOpen
-                ? "translateY(-2px) rotate(-45deg)"
-                : "translateY(3px)",
-              transition: "all 0.3s ease",
-            }}
-          />
-        </button>
       </header>
+
+      {/* Mobile hamburger — own stacking context, always on top */}
+      <button
+        className="header-hamburger"
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Toggle navigation"
+        style={{
+          position: "fixed",
+          top: "1.625rem",
+          right: "7vw",
+          width: "3.25rem",
+          height: "3.25rem",
+          border: "2px solid #000",
+          borderRadius: "100%",
+          background: "#fff",
+          zIndex: 100,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 0,
+          cursor: "pointer",
+          padding: 0,
+        }}
+      >
+        <span
+          style={{
+            width: "24px",
+            height: "2px",
+            background: "#000",
+            transform: menuOpen
+              ? "translateY(0px) rotate(45deg)"
+              : "translateY(-3px)",
+            transition: "all 0.3s ease",
+          }}
+        />
+        <span
+          style={{
+            width: "24px",
+            height: "2px",
+            background: "#000",
+            transform: menuOpen
+              ? "translateY(-2px) rotate(-45deg)"
+              : "translateY(3px)",
+            transition: "all 0.3s ease",
+          }}
+        />
+      </button>
 
       {/* Mobile menu overlay */}
       <div
