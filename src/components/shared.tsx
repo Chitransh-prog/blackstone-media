@@ -144,7 +144,7 @@ export function Header() {
 
         {/* Mobile hamburger */}
         <button
-          className={`header-hamburger ${menuOpen ? "menu-open" : ""}`}
+          className="header-hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle navigation"
           style={{
@@ -165,20 +165,24 @@ export function Header() {
           }}
         >
           <span
-            className="hamburger-line-top"
             style={{
               width: "24px",
               height: "2px",
               background: "#000",
+              transform: menuOpen
+                ? "translateY(0px) rotate(45deg)"
+                : "translateY(-3px)",
               transition: "all 0.3s ease",
             }}
           />
           <span
-            className="hamburger-line-bottom"
             style={{
               width: "24px",
               height: "2px",
               background: "#000",
+              transform: menuOpen
+                ? "translateY(-2px) rotate(-45deg)"
+                : "translateY(3px)",
               transition: "all 0.3s ease",
             }}
           />
