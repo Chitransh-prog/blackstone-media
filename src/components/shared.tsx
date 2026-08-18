@@ -73,6 +73,13 @@ export const containerStyle: React.CSSProperties = {
 
 /* Header */
 
+const NAV_ITEMS = [
+  { label: "Work", href: "/work" },
+  { label: "Services", href: "/services" },
+  { label: "About", href: "/about" },
+  { label: "Blog", href: "/blog" },
+];
+
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -98,78 +105,85 @@ export function Header() {
           </svg>
         </Link>
 
-        <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+        {/* Desktop nav */}
+        <nav
+          className="header-nav-links"
+          style={{ pointerEvents: "all", alignItems: "center" }}
+        >
+          {NAV_ITEMS.map((item) => (
+            <Link
+              key={item.label}
+              href={item.href}
+              style={{
+                fontSize: "1rem",
+                fontWeight: 400,
+                color: "#000",
+                textDecoration: "none",
+                letterSpacing: "0.02em",
+              }}
+            >
+              {item.label}
+            </Link>
+          ))}
           <Link
             href="/start-your-project"
-            className="hire-us-desktop"
+            className="header-hire-desktop"
             style={{
-              pointerEvents: "all",
-              fontSize: "1.125rem",
+              fontSize: "1rem",
               fontWeight: 400,
-              padding: "0.95rem 1.35rem 1.05rem",
+              padding: "0.75rem 1.5rem",
               background: "#000",
-              borderRadius: "2.0625rem",
+              borderRadius: "2rem",
               color: "#fff",
               textDecoration: "none",
-              display: "none",
             }}
           >
             Hire us
           </Link>
+        </nav>
 
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle navigation"
+        {/* Mobile hamburger */}
+        <button
+          className={`header-hamburger ${menuOpen ? "menu-open" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle navigation"
+          style={{
+            pointerEvents: "all",
+            width: "3.25rem",
+            height: "3.25rem",
+            border: "2px solid #000",
+            borderRadius: "100%",
+            background: "#fff",
+            zIndex: 100,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: 0,
+            cursor: "pointer",
+            padding: 0,
+          }}
+        >
+          <span
+            className="hamburger-line-top"
             style={{
-              pointerEvents: "all",
-              width: "3.25rem",
-              height: "3.25rem",
-              border: "2px solid #000",
-              borderRadius: "100%",
-              background: "#fff",
-              zIndex: 100,
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: 0,
-              cursor: "pointer",
-              padding: 0,
+              width: "24px",
+              height: "2px",
+              background: "#000",
+              transition: "all 0.3s ease",
             }}
-          >
-            <span
-              style={{
-                width: "24px",
-                height: "2px",
-                background: "#000",
-                transform: menuOpen
-                  ? "translateY(0px) rotate(45deg)"
-                  : "translateY(-3px)",
-                transition: "all 0.3s ease",
-              }}
-            />
-            <span
-              style={{
-                width: "24px",
-                height: "2px",
-                background: "#000",
-                transform: menuOpen
-                  ? "translateY(-2px) rotate(-45deg)"
-                  : "translateY(3px)",
-                transition: "all 0.3s ease",
-              }}
-            />
-          </button>
-        </div>
+          />
+          <span
+            className="hamburger-line-bottom"
+            style={{
+              width: "24px",
+              height: "2px",
+              background: "#000",
+              transition: "all 0.3s ease",
+            }}
+          />
+        </button>
       </header>
-
-      <style jsx>{`
-        @media (min-width: 768px) {
-          .hire-us-desktop {
-            display: inline-block !important;
-          }
-        }
-      `}</style>
 
       {/* Mobile menu overlay */}
       <div
@@ -191,12 +205,7 @@ export function Header() {
           transition: "opacity 0.3s ease",
         }}
       >
-        {[
-          { label: "Work", href: "/work" },
-          { label: "Services", href: "/service/brand-strategy-and-identity" },
-          { label: "About", href: "/agency" },
-          { label: "Blog", href: "/blog" },
-        ].map((item) => (
+        {NAV_ITEMS.map((item) => (
           <Link
             key={item.label}
             href={item.href}
