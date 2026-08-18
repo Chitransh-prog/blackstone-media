@@ -96,7 +96,7 @@ export function Header() {
           alignItems: "center",
           padding: "1.625rem 7vw",
           pointerEvents: "none",
-          zIndex: 10,
+          zIndex: menuOpen ? 60 : 10,
         }}
       >
         <Link href="/" style={{ pointerEvents: "all" }}>
@@ -154,7 +154,6 @@ export function Header() {
             border: "2px solid #000",
             borderRadius: "100%",
             background: "#fff",
-            zIndex: 100,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
