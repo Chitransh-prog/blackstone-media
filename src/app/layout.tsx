@@ -21,6 +21,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://blackstone-media.vercel.app"),
   title: "Branding & Web Design Agency London & NYC | Creative Agency",
   description: "A global branding agency and creative web design studio based in London",
 };
