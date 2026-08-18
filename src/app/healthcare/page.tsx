@@ -8,6 +8,7 @@ import {
   Footer,
   FadeIn,
   containerStyle,
+  FloatingStartButton,
 } from "@/components/shared";
 
 const SITE_KEY = "kota-co-uk_ddbd9d9c";
@@ -91,50 +92,6 @@ const TESTIMONIALS = [
     role: "Director of Digital, NHS Trust",
   },
 ];
-
-/* Floating Start Button */
-function FloatingStartButton() {
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => setVisible(window.scrollY > 400);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  if (!visible) return null;
-
-  return (
-    <div style={{ position: "fixed", bottom: "2rem", right: "2rem", zIndex: 50 }}>
-      <Link
-        href="#"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "0.5rem",
-          background: "#000",
-          color: "#fff",
-          borderRadius: "2rem",
-          padding: "1rem 1.5rem",
-          fontSize: "12px",
-          textTransform: "uppercase",
-          letterSpacing: "0.12em",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-          textDecoration: "none",
-          transition: "background 0.3s ease",
-        }}
-        onMouseEnter={(e) => {
-          (e.currentTarget as HTMLAnchorElement).style.background = "#333";
-        }}
-        onMouseLeave={(e) => {
-          (e.currentTarget as HTMLAnchorElement).style.background = "#000";
-        }}
-      >
-        Start your project
-      </Link>
-    </div>
-  );
-}
 
 /* Hero */
 function HeroSection() {
@@ -800,7 +757,7 @@ function CTASection() {
         </FadeIn>
         <FadeIn delay={0.15}>
           <a
-            href="mailto:hello@kota.co.uk"
+            href="mailto:hello@blackstonemedia.com"
             className="rainbow-text"
             style={{
               fontSize: "clamp(1.25rem, 3vw, 2.5rem)",
@@ -810,7 +767,7 @@ function CTASection() {
               marginBottom: "2rem",
             }}
           >
-            hello@kota.co.uk
+            hello@blackstonemedia.com
           </a>
         </FadeIn>
         <FadeIn delay={0.2}>
